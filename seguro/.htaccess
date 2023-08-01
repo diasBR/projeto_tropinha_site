@@ -1,0 +1,8 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:VEnxxZnrx7
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u592939524/domains/projetotropinha.org/public_html/novo/seguro/.htpasswd
+Require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE VEnxxZnrx7:PWPROTECTID
+

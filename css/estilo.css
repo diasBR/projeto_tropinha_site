@@ -1,0 +1,1160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: "Verdana", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial";
+	line-height: 20px;
+	font-size: 16px;
+	color: #ffffff;
+	/* color: black; */
+}
+
+.topo {
+	background: url("../images/barra_topo3.png");
+	width: 940px;
+	height: 150px;
+	/*border-bottom: 5px solid #000000;*/
+	margin: auto;
+}
+
+.logo {
+	float: left;
+	background: url("../images/logo_tropinha_oficial_site.png");
+	width: 207px;
+	height: 140px;
+	position: relative;
+	margin: 4px 0 0 15px;
+}
+
+.titulo {
+	float: left;
+	background: url("../images/titulo_tropinha_topo2.png");
+	width: 500px;
+	height: 60px;
+	position: relative;
+	margin: 15px 70px 0 100px;
+}
+
+.login {
+	width: 300px;
+	height: 20px;
+	float: left;
+	font-size: 20px;
+	color: #F8FF00;
+	font-weight: bold;
+	position: relative;
+	margin: 0px 25px 0 242px;
+}
+
+
+.topo .menu {
+	font-size: 14px;
+}
+
+.topo .menu ul {
+	position: relative;
+	float: right;
+	margin:-40px 25px 0 150px;
+	
+	}
+
+.topo .menu li {
+	display: inline;
+	padding:10px 0 0 20px;
+	float: none;
+}
+
+.topo .menu ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.topo .menu ul li a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+.topo .menu ul li .active {
+	color: #F8FF00;
+	font-weight: bold;
+}
+
+/* Inicio da pagina inicial */
+
+#fundo_inicial{
+	width: 940px;
+	height: 1000px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_img1 {
+	background: url("../images/institucional/foto_1_index.jpeg");
+	width: 400px;
+	height: 300px;
+	float: left;
+	position: relative;
+	margin: 15px;
+}
+
+.box_txt1 {
+	width: 480px;
+	height: 300px;
+	float: left;
+	position: relative;
+	margin: 10px 15px 10px 10px;
+	}
+
+.box_txt1 h1 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	margin-top: 12px;
+ }
+
+.box_txt1 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+	
+}
+
+.box_txt1 a {
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+.box_txt1 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+.box_img2 {
+	background: url("../images/institucional/foto1.jpeg");
+	width: 400px;
+	height: 300px;
+	float: right;
+	position: relative;
+	margin: 15px;
+}
+
+.box_txt2 {
+	width: 480px;
+	height: 300px;
+	float: right;
+	position: relative;
+	margin: 10px 15px 10px 10px;
+	}
+
+.box_txt2 h2 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	margin-top: 12px;
+ }
+
+.box_txt2 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+	
+}
+
+.box_txt2 a {
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+.box_txt2 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+.box_txt3 {
+	width: 250px;
+	height: 25px;
+	float: left;
+	position: relative;
+	margin: 10px 15px 0 90px;
+	}
+
+.box_txt3 h3 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	}
+
+.box_txt3a {
+	width: 240px;
+	height: 25px;
+	float: right;
+	position: relative;
+	margin: 10px 85px 0 140px;
+	}
+
+.box_txt3a h3 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	}
+
+.box_img3 {
+	background: url("../images/logo_mvv2.png");
+	width: 300px;
+	height: 185px;
+	float: left;
+	position: relative;
+	margin: 25px 0 0 60px;
+}
+
+.box_img3a {
+	background: url("../images/parceiros/logo_csscb_rj2.jpg");
+	width: 150px;
+	height: 151px;
+	float: right;
+	position: relative;
+	margin: 25px 42px 0 0;
+}
+
+.box_img3ab {
+	background: url("../images/parceiros/logo_cbpmrj3.jpg");
+	width: 150px;
+	height: 72px;
+	float: right;
+	position: relative;
+	margin: 25px 40px 0 15px;
+}
+
+.box_txt3b {
+	width: 400px;
+	height: 50px;
+	float: left;
+	position: relative;
+	margin: 20px 180px 10px 10px;
+	}
+
+.box_txt3b p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.box_txt3b a {
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+.box_txt3b a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+.box_txt3c {
+	width: 270px;
+	height: 50px;
+	float: right;
+	position: relative;
+	margin: 0px 70px 40px 10px;
+	}
+
+.box_txt3c p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	
+}
+
+.box_txt3c a {
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+.box_txt3c a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+
+.box_rodape {
+	width: 900px;
+	height: 20px;
+	float: right;
+	position: relative;
+	margin: 0 15px 0 520px;
+	clear: both;
+	}
+
+.box_rodape h4 {
+	font-size: 9px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	float: right;
+	
+ }
+
+/* Fim da pagina inicial */
+
+
+/* Inicio da pagina Quem somos */
+
+#fundo_quem_somos{
+	width: 940px;
+	height: 1450px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_img4 {
+	background: url("../images/institucional/quem_somos2.png");
+	width: 900px;
+	height: 128px;
+	float: left;
+	position: relative;
+	margin: 20px 20px 15px 20px;
+}
+
+.box_txt4 {
+	width: 900px;
+	height: 1260px;
+	float: left;
+	position: relative;
+	margin: 0 15px 10px 20px;
+	}
+
+.box_txt4 h4 {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	margin-top: 15px;
+	margin-bottom: 10px;
+ }
+
+.box_txt4 h5 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	margin-top: 15px;
+	margin-bottom: 10px;
+ }
+
+.box_txt4 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+	}
+
+.box_txt4 p1 {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.box_txt4 b {
+	font-weight: bold;
+}
+
+.box_txt4 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt4 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina Quem somos */
+
+
+/* Inicio da pagina Diretrizes */
+
+#fundo_diretrizes{
+	width: 940px;
+	height: 872px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_img5 {
+	background: url("../images/logo_mvv2.png");
+	width: 300px;
+	height: 185px;
+	float: left;
+	position: relative;
+	margin: 20px 20px 15px 300px;
+}
+
+.box_txt5 {
+	width: 300px;
+	height: 20px;
+	float: left;
+	position: relative;
+	margin: 1px 600px 10px 20px;
+	}
+
+.box_txt5 h7 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+		
+ }
+
+.box_img6 {
+	background: url("../images/institucional/logo_missao.png");
+	width: 146px;
+	height: 140px;
+	float: left;
+	position: relative;
+	margin: 15px;
+	margin-top: 30px;
+}
+
+.box_txt6 {
+	width: 730px;
+	height: 150px;
+	float: left;
+	position: relative;
+	margin: 35px 15px 10px 10px;
+	}
+
+.box_txt6 h8 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	margin-top: 15px;
+	margin-bottom: 10px;
+ }
+
+.box_txt6 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.box_img7 {
+	background: url("../images/institucional/logo_visao.png");
+	width: 149px;
+	height: 140px;
+	float: left;
+	position: relative;
+	margin: 15px;
+}
+
+.box_txt7 {
+	width: 730px;
+	height: 150px;
+	float: left;
+	position: relative;
+	margin: 20px 15px 10px 10px;
+	}
+
+.box_txt7 h8 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	margin-top: 15px;
+	margin-bottom: 10px;
+ }
+
+.box_txt7 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.box_img8 {
+	background: url("../images/institucional/logo_valores.png");
+	width: 148px;
+	height: 140px;
+	float: left;
+	position: relative;
+	margin: 15px;
+}
+
+.box_txt8 {
+	width: 730px;
+	height: 150px;
+	float: left;
+	position: relative;
+	margin: 20px 15px 10px 10px;
+	}
+
+.box_txt8 h8 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	 }
+
+.box_txt8 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.box_txt9 {
+	width: 250px;
+	height: 20px;
+	float: left;
+	position: relative;
+	margin: 5px 15px 25px 188px;
+	}
+
+.box_txt9 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.box_txt9 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt9 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina Diretrizes */
+
+
+/* Inicio da pagina Parceiros */
+
+#fundo_patrocinadores{
+	width: 940px;
+	height: 872px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt10 {
+	width: 400px;
+	height: 30px;
+	float: left;
+	position: relative;
+	margin: 15px 0px 0px 350px;
+	}
+
+.box_txt10 h1 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	}
+
+.box_parceiros {
+	width: 900px;
+	height: 180px;
+	position: relative;
+	margin: 20px auto auto 20px;
+	float: left;
+		}
+
+.box_txt11 {
+	width: 900px;
+	height: 150px;
+	float: left;
+	position: relative;
+	margin: 15px 0px 70px 20px;
+	}
+
+.box_txt11 h1 {
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	}
+
+.box_txt11 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.box_txt11 b {
+	font-weight: bold;
+}
+
+.box_txt11 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt11 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+.box_txt12 {
+	width: 900px;
+	height: 20px;
+	float: left;
+	position: relative;
+	margin: 220px 0px 340px 20px;
+	}
+
+.box_txt12 p {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.box_txt12 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt12 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina parceiros */
+
+
+/* Inicio da pagina fotos videos */
+
+#fundo_fotos_videos{
+	width: 940px;
+	height: 650px;
+		margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt13 {
+	width: 900px;
+	height: 580px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	float: left;
+	position: relative;
+	margin: 20px 0px 34px 15px;
+	}
+
+.box_txt13 h1{
+	font-size: 24px;	
+	color: #ffffff;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.box_txt13 p {
+	font-size: 20px;
+	text-align: justify;
+	color: #ffffff;
+}
+
+.box_txt13 li {
+	font-size: 14px;
+	text-align: justify;
+	color: #fff;
+	}
+
+.box_txt13 b {
+    font-weight: bold;
+	}
+
+.box_txt13 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt13 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina fotos e videos */
+
+
+/* Inicio da pagina fotos */
+
+#fundo_fotos {
+	width: 940px;
+	height: 650px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt14 {
+	width: 900px;
+	height: 80px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Verdana, Arial;
+	float: left;
+	position: relative;
+	margin: 20px 0px 20px 20px;
+	}
+
+.box_txt14 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.box_txt14 p {
+	font-size: 14px;
+}
+
+.box_txt14 b {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.box_imagens {
+	width: 900px;
+	height: 280px;
+	position: relative;
+	margin: 15px 20px 20px 20px;
+	float: left;
+		}
+
+.box_imagens table {
+	border: 1px solid #ccc;
+	width: 900px;
+	height: 120px;
+}
+
+.box_imagens td {
+	border: 1px solid #ccc;
+	}
+
+.box_espaco {
+	width: 900px;
+	height: 150px;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+	float: left;
+	position: relative;
+	margin: 10px 20px 40px 20px;
+}
+
+.box_espaco a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_espaco a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina fotos */
+
+/* Inicio da pagina fotos 12-5-22 */
+
+#fundo_fotos_12-5-22 {
+	width: 940px;
+	height: 850px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt14 {
+	width: 900px;
+	height: 80px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Verdana, Arial;
+	float: left;
+	position: relative;
+	margin: 20px 0px 20px 20px;
+	}
+
+.box_txt14 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.box_txt14 p {
+	font-size: 14px;
+}
+
+.box_txt14 b {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.box_imagens {
+	width: 900px;
+	height: 280px;
+	position: relative;
+	margin: 15px 20px 20px 20px;
+	float: left;
+		}
+
+.box_imagens table {
+	border: 1px solid #ccc;
+	width: 900px;
+	height: 120px;
+}
+
+.box_imagens td {
+	border: 1px solid #ccc;
+	}
+
+.box_espaco_12-5-22 {
+	width: 900px;
+	height: 350px;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+	float: left;
+	position: relative;
+	margin: 10px 20px 40px 20px;
+}
+
+.box_espaco_12-5-22 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_espaco_12-5-22 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina fotos 12-5-22 */
+
+/* Inicio da pagina videos */
+
+#fundo_videos {
+	width: 940px;
+	height: 800px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt15 {
+	width: 900px;
+	height: 80px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Verdana, Arial;
+	float: left;
+	position: relative;
+	margin: 20px 0px 20px 20px;
+	}
+
+.box_txt15 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.box_txt15 p {
+	font-size: 14px;
+}
+
+.box_txt15 b {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.box_videos {
+	width: 900px;
+	height: 500px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin: 30px 20px 20px 20px;
+		}
+
+.box_espaco_video {
+	width: 900px;
+	height: 100px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin: 5px 20px 10px 20px;
+}
+
+.box_espaco_video a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_espaco_video a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+/* Fim da pagina videos */
+
+
+/* Inicio da pagina fale conosco */
+
+#fundo_fale_conosco{
+	width: 940px;
+	height: 1200px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt20 h1 {
+	width: 900px;
+	height: 25px;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	float: left;
+	position: relative;
+	margin: 15px 0px 10px 20px;
+	}
+
+.box_txt21 p {
+	width: 900px;
+	height: 35px;
+	font-size: 14px;
+	color: #ffffff;
+	/* font-weight: bold; */
+	text-align: justify;
+	float: left;
+	position: relative;
+	margin: 10px 0px 10px 20px;
+}
+
+.box_txt21 b {
+	font-weight: bold;
+}
+
+.box_txt21 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt21 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+.regua_1 {
+	
+	width: 900px;
+	margin: auto;
+	border: 1px solid #ccc;
+	clear: both;
+}
+
+.formulario {
+	width: 800px;
+	height: 400px;
+	float: left;
+	position: relative;
+	margin: 20px auto auto 20px;
+			}
+
+.box_txtform {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	margin: 0px 5px 0px 0px;
+}
+
+.box_txtform_es {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin: 0px 5px 0px 0px;
+}
+
+.box_txtform_cep {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin: 0px 5px 0px 0px;
+}
+
+.box_txtform_como {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin: 0px 5px 0px 0px;
+}
+
+.regua_2 {
+	
+	width: 900px;
+	margin: auto;
+	border: 1px solid #ccc;
+	clear: both;
+}
+
+.box_txt22 h1 {
+	width: 300px;
+	height: 25px;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	float: left;
+	position: relative;
+	margin: 20px 0px 15px 350px;
+	}
+
+.box_txt23 p {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Verdana, Arial;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	position: relative;
+	margin: 0px 0px 10px 265px;
+	}
+
+.mapa {
+	width: 900px;
+	height: 500px;
+	float: left;
+	position: relative;
+	image-orientation: center;
+	margin: 15px 0px 10px 165px;
+}
+
+/* Fim da pagina fale conosco */
+
+/* Início da pagina obrigado */
+
+#fundo_obrigado{
+	width: 940px;
+	height: 400px;
+	margin: 5px auto 20px auto;
+	background-color: #61ab6b;
+}
+
+.box_txt24 h1 {
+	width: 900px;
+	height: 100px;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial;
+	text-align: center;
+	float: left;
+	position: relative;
+	margin: 70px 0px 15px 20px;
+	}
+
+.box_txt25 p {
+	width: 900px;
+	height: 40px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Verdana, Arial;
+	text-align: center;
+	float: left;
+	position: relative;
+	margin: 60px 20px 0px 20px;
+	}
+
+.box_txt25 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.box_txt25 a:hover {
+	text-decoration: underline;
+	color: #F8FF00;
+}
+
+@media (max-width: 600px){
+
+	.topo {
+		background: url("../images/barra_topo3.png");
+		width: 300px;
+		height: 150px;
+		/*border-bottom: 5px solid #000000;*/
+		margin: auto;
+	}
+	
+	.logo {
+		float: left;
+		background: url("../images/logo_tropinha_oficial_site.png");
+		width: 207px;
+		height: 140px;
+		position: relative;
+		margin: 4px 0 0 15px;
+	}
+	
+	.titulo {
+		float: left;
+		background: url("../images/titulo_tropinha_topo2.png");
+		width: 500px;
+		height: 60px;
+		position: relative;
+		margin: 15px 70px 0 100px;
+	}
+	
+	.login {
+		width: 300px;
+		height: 20px;
+		float: left;
+		font-size: 20px;
+		color: #F8FF00;
+		font-weight: bold;
+		position: relative;
+		margin: 0px 25px 0 242px;
+	}
+	
+	
+	.topo .menu {
+		font-size: 14px;
+	}
+	
+	.topo .menu ul {
+		position: relative;
+		float: right;
+		margin:-40px 25px 0 150px;
+		
+		}
+	
+	.topo .menu li {
+		display: inline;
+		padding:10px 0 0 20px;
+		float: none;
+	}
+	
+	.topo .menu ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	.topo .menu ul li a:hover {
+		text-decoration: underline;
+		color: #F8FF00;
+	}
+	
+	.topo .menu ul li .active {
+		color: #F8FF00;
+		font-weight: bold;
+	}
+
+}
+
+
