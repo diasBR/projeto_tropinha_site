@@ -1,194 +1,141 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta charset="utf-8">
-<title>Fale Conosco | Projeto Tropinha</title>
-	
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/estilo.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-body {
-    background-image: url("images/fundo_textura.jpg");
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" href="./images/logo_tropinha_oficial_site.png">
+    <title>Fale Conosco | Projeto Tropinha</title>
 </head>
-
 <body>
-
+<header>
 <div class="topo">
-	
 	<div class="logo">
-	</div><!-- fim logo -->
-	
-	<div class="titulo">
-	</div><!-- fim titulo -->
-	
+		<img class="logotxt" src="./images/titulo_tropinha_topo.png" alt="">
+		<img class="logoimg" src="../images/logo_tropinha_oficial_site.png" alt="">
+	</div>
+	<nav onclick="clickMenu()">
+	<img class="img-menu" src="./images/hamburger.png"  alt="">
+	</nav>
 	<div class="menu">
-		<ul>
-		<li><a href="index.html" > Página Inicial </a></li>
+		<menu id="itens">
+			<ul class="list">
+				<li><a href="index.html" class="active"> Página Inicial </a></li>
 				<li><a href="quem_somos.html" > Quem Somos </a></li>
 				<li><a href="diretrizes.html" > Diretrizes </a></li>
 				<li><a href="parceiros.html" > Parceiros </a></li>
-			<li><a href="fotos_videos.html" > Fotos e Vídeos </a></li>	
-			<li><a href="fale_conosco.html" class="active"> Fale Conosco </a></li>
-		
-		</ul>
-	</div><!-- fim menu -->
-	
-</div><!-- fim topo -->
-	
+				<li><a href="atividades.html" > Atividades </a></li>
+				<li><a href="fotos_videos.html" > Fotos e Vídeos </a></li>	
+				<li><a href="fale_conosco.html" > Fale Conosco </a></li>
+			</ul>
+		</menu>
+	</div>
+</div>
+</header>	
 	<div id="fundo_fale_conosco">
-	  
 		<div class="box_txt20">
 			<h1>Fale Conosco</h1>
 		</div><!-- fim do box txt20 -->
-	  
 		<div class="box_txt21">
-		  <p>Você pode entrar em contato conosco diretamente por <a href="mailto:contato@projetotropinha.org?Subject=Fale Conosco&body=Olá! Gostaria de mais informações..."><b>e-mail</b></a>, <a href="https://wa.me/5521980941037?text=Olá! Gostaria de informações sobre o Projeto Tropinha." target="_blank"> <b>whatsapp</b></a> ou preenchendo nosso formulário abaixo.</p>
-			
-        </div><!-- fim do box txt14 -->
-		
+			<p>Você pode entrar em contato conosco diretamente pelo nosso whatsapp, e-mail, ou preenchendo nosso formulário abaixo.</p>
+		<div class="box_icons2">
+			<div class="button_link">
+			<a href="https://wa.me/5521980941037?text=Olá! Gostaria de informações sobre o Projeto Tropinha." target="_blank">
+				<img src="./images/icons/whatsapp.png" alt="">
+			</a></div>
+			<div class="button_link">
+			<a href="mailto:contato@projetotropinha.org?Subject=Gostaria de ser um Parceiro do Projeto Tropinha&body=Olá! Gostaria de mais informações sobre o projeto e...">	
+				<img src="./images/icons/email.png" alt="">
+			</a></div>
+			</div>
+		</div>
 		<div class="regua_1">
-		</div><!-- fim regua 1 -->
-			
+		</div>
 		<div class="formulario">
-		   <form method="post" action="envia_fale_conosco.php" name="form">
-              
-			  <table width="900" cellspacing="15">
-			  <tbody>
-				 <tr>
-					 <td width="152" style="vertical-align: bottom"> <div class="box_txtform">Motivo do contato:</div></td>
-			    
-					 <td style="vertical-align: bottom" height="19" width="388"><select id="motivo" name="motivo">
+			<form class="form_board" method="post" action="envia_fale_conosco.php" name="form">
+				<div class="form1"></div>
+					<div class="box_txtform">Motivo do contato:</div>
+				<select class="form-field" id="motivo" name="motivo">
 					<option selected="selected" value="nao informou">Motivo</option>
-    				<option value="ser nosso parcerio">Ser nosso parceiro</option>
-    				<option value="sobre o aluno">Sobre o aluno(a)</option>
-    				<option value="sobre as aulas">Sobre as aulas</option>
+					<option value="ser nosso parcerio">Ser nosso parceiro</option>
+					<option value="sobre o aluno">Sobre o aluno(a)</option>
+					<option value="sobre as aulas">Sobre as aulas</option>
 					<option value="outro motivo">Outro motivo</option>
-						 </select> <div class="box_txtform">Outro motivo:</div></td>
-					 
-				<td colspan="2" rowspan="1"><input align="left" type="text" id="motoutros" size="20" name="motoutros"></td>
-					 </tr>
-				 
-				  <tr>
-					  <td style="vertical-align: bottom"> <div class="box_txtform">Nome:</div></td>
-			   <td><input type="text" id="nome" size="50" name="nome"></td>
-				<td width="80"></td>
-				<td></td>
-					 </tr>
-				  <tr>
-					  <td style="vertical-align: bottom"><div class="box_txtform">Empresa:</div></td>
-			   <td><input type="text" id="empresa" size="50" name="empresa" placeholder="Preencher somente se for empresa."></td>
-				<td></td>
-				<td></td>
-					 </tr>
-				  <tr>
-					  <td style="vertical-align: bottom"><div class="box_txtform">Endereço:</td>
-			   <td><input type="text" id="endereco" size="50" name="endereco"></td>
-				<td></td>
-				<td></td>
-					 </tr>
-				  <tr>
-					  <td style="vertical-align: bottom"><div class="box_txtform">Cidade:</div></td>
-			   <td><input type="text" id="cidade" size="50" name="cidade"></td>
-					  <td style="vertical-align: bottom"><div class="box_txtform">Estado:</div></td>
-				<td><input type="text" id="estado" size="8" name="estado"></td>
-					 </tr>
-				  <tr>
-					  <td style="vertical-align: bottom"><div class="box_txtform">País:</div></td>
-			   <td><input type="text" id="pais" size="50" name="pais"></td>
-					  <td style="vertical-align: bottom"><div class="box_txtform">CEP:</div></td>
-				<td><input type="text" id="cep" size="8" name="cep"></td>
-					 </tr>
-				   <tr>
-					   <td style="vertical-align: bottom"><div class="box_txtform">Telefone:</div></td>
-			   <td><input type="text" id="dddtel" size="4" name="dddtel" placeholder="DDD"> <input type="text" id="tel" size="20" name="tel"></td>
-				<td></td>
-				<td></td>
-					 </tr>
-				   <tr>
-					   <td style="vertical-align: bottom"><div class="box_txtform">Celular:</div></td>
-			   <td><input type="text" id="dddcel" size="4" name="dddcel" placeholder="DDD"> <input type="text" id="cel" size="20" name="cel"></td>
-				<td></td>
-				<td></td>
-					 </tr>
-				  <tr>
-					  <td style="vertical-align: bottom"><div class="box_txtform">E-mail:</div></td>
-			   <td><input type="text" id="email" size="50" name="email"></td>
-				<td></td>
-				<td></td>
-					 </tr>
-				  <tr>
-					  <td style="vertical-align: top"><div class="box_txtform">Mensagem:</div></td>
-					  <td><textarea cols="50" rows="5" id="mensagem" name="mensagem" placeholder="Deixe aqui sua mensagem."></textarea>
-			    	<td></td>
-				<td></td>
-					 </tr>
-				  <tr>
-				  <td colspan="2" rowspan="1" style="vertical-align: bottom"> <div class="box_txtform_como">Como conheceu nosso projeto:</div>
-					  </td>
-				 		<td colspan="2" rowspan="1"></td>		
-				
-				  </tr>
-				  <tr>
-			 <td></td>
-			   <td style="vertical-align: bottom" height="19"><select id="como" name="como">
+				</select>
+				<div class="box_txtform">Outro motivo:</div>
+				<input class="form-field" type="text" id="motoutros" name="motoutros">
+				<div class="box_txtform">Nome:</div>
+				<input class="form-field" type="text" id="nome" name="nome">
+				<div class="box_txtform">Empresa:</div>
+				<input class="form-field" type="text" id="empresa" name="empresa" placeholder="Preencher somente se for empresa.">
+				<div class="box_txtform">Endereço:</div>
+				<input class="form-field" type="text" id="endereco" name="endereco">
+				<div class="box_txtform">Cidade:</div>
+				<input class="form-field" type="text" id="cidade" name="cidade">
+				<div class="box_txtform">Estado:</div>
+				<input class="form-field" type="text" id="estado" name="estado">
+				<div class="box_txtform">País:</div>
+				<input class="form-field" type="text" id="pais" name="pais">
+				<div class="box_txtform">CEP:</div>
+				<input class="form-field" type="text" id="cep" name="cep">
+				<div class="box_txtform">Telefone:</div>
+				<input class="form-field" type="text" id="dddtel" name="dddtel" placeholder="DDD"> 
+				<div><input class="form-field" type="text" id="tel" name="tel"></div>
+				<div class="box_txtform">Celular:</div>
+				<input class="form-field" type="text" id="dddcel" name="dddcel" placeholder="DDD">
+				<div><input class="form-field" type="text" id="cel" name="cel"></div>
+				<div class="box_txtform">E-mail:</div>
+				<input class="form-field" type="text" id="email" name="email">
+				<div class="box_txtform">Mensagem:</div>
+				<textarea class="form-field text_area" id="mensagem" name="mensagem" placeholder="Deixe aqui sua mensagem."></textarea>
+				<div class="box_txtform_como">Como conheceu nosso projeto:</div>
+				<select class="form-field" id="como" name="como">
 					<option selected="selected" value="nao informou">Escolha</option>
-    				<option value="site de busca">Site de busca</option>
-    				<option value="indicacao de um amigo">Indicação de um amigo</option>
-    				<option value="propaganda na internet">Propaganda na internet</option>
+					<option value="site de busca">Site de busca</option>
+					<option value="indicacao de um amigo">Indicação de um amigo</option>
+					<option value="propaganda na internet">Propaganda na internet</option>
 					<option value="outros">Outros</option>
-					  </select> <div class="box_txtform">Outros:</div>
-				   </td>
-				  <td colspan="2" rowspan="1"><input align="left" type="text" id="outros" size="20" name="outros"></td>
-					 </tr>
-				   <tr>
-			 <td style="height: 30px"></td>
-			   <td></td>
-				 <td></td>
-					    <td></td>
-					 </tr>
-				  <tr>
-				  <td></td>
-					  <td><input type="submit" name="submit" id="submit" value="Enviar formulario"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-					    <input type="reset" name="reset" id="reset" value="Apagar tudo">
-				     </td>
-					  <td></td>
-					  <td></td>
-				  </tr>
-			  </tbody>
-			   </table>
-			   <br>
-             
+					</select> <div class="box_txtform">Outros:</div>
+				<input class="form-field" type="text" id="outros" name="outros">
+			<div class="button_all">
+				<div class="button-field1">
+					<input type="submit" name="submit" id="submit" value="Enviar formulario" width="510px" height="30px">
+				</div> 
+				<div class="button-field2">
+					<input type="reset" name="reset" id="reset" value="Apagar tudo">
+				</div>
+			</div>
             </form>
-
-	          
-			
 		</div><!-- fim do formulario -->
-	
 		<div class="regua_2">
 		</div><!-- fim regua 2 -->
-		
 		<div class="box_txt22">
 			<h1>Nossa Localização</h1>
 		</div><!-- fim do box txt22 -->
-		
 		<div class="box_txt23">
 			<p>Estamos na Travessa Carlos Xavier, nº 96, Madureira,<br>
 				Rio de Janeiro - RJ - CEP: 21310-010<br>
 			<strong>Clube dos Subtenentes e Sargentos dos Bombeiros</strong>
 			</p>
 		</div><!-- fim do box txt23 -->
-		
 		<div class="mapa">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.0013836852563!2d-43.34653398503499!3d-22.87640728502727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996311141ff0db%3A0xc25b4d1d68bc8ac7!2sProjeto%20Tropinha!5e0!3m2!1spt-BR!2sbr!4v1652364750669!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><!-- fim mapa -->
-		
-				
-	  <div class="box_rodape">
-			<h4>Todos os direitos reservados. 2022. Desenvolvido por Geraldof</h4>
-		</div> <!-- fim rodape -->
-		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.0013836852563!2d-43.34653398503499!3d-22.87640728502727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996311141ff0db%3A0xc25b4d1d68bc8ac7!2sProjeto%20Tropinha!5e0!3m2!1spt-BR!2sbr!4v1652364750669!5m2!1spt-BR!2sbr" width="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><!-- fim mapa -->
+		<div class="button_end">
+			<a class="link_info_pageFirst" href="index.html">Página Inicial</a>
+		</div>
+		</div><!-- fim fundo inicial -->
+		<footer>
+			<p>&copy; 2023 Desenvolvido por Geraldof e Bruno Dias. Todos os direitos reservados. 2023.</p>
+		</footer> <!-- fim rodape -->
+	<script>
+		function clickMenu(){
+			if(itens.style.display == 'block'){
+				itens.style.display = 'none'
+			}else{
+				itens.style.display = 'block'
+			}
+		}
+	</script>
 	</div><!-- fim fundo fale conosco -->
-
 </body>
 </html>

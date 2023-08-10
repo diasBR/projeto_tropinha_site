@@ -1,75 +1,77 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta charset="utf-8">
-<title>Fotos e Videos | Projeto Tropinha</title>
-	
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/estilo.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-body {
-    background-image: url("images/fundo_textura.jpg");
-}
-</style>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" href="./images/logo_tropinha_oficial_site.png">
+    <title>Fotos e Vídeos | Projeto Tropinha</title>
 </head>
-
 <body>
-
-		
+<header>
 <div class="topo">
-	
 	<div class="logo">
-	</div><!-- fim logo -->
-	
-	<div class="titulo">
-	</div><!-- fim titulo -->
-	
+		<img class="logotxt" src="./images/titulo_tropinha_topo.png" alt="">
+		<img class="logoimg" src="../images/logo_tropinha_oficial_site.png" alt="">
+	</div>
+	<nav onclick="clickMenu()">
+	<img class="img-menu" src="./images/hamburger.png"  alt="">
+	</nav>
 	<div class="menu">
-		<ul>
-		<li><a href="index.html" > Página Inicial </a></li>
+		<menu id="itens">
+			<ul class="list">
+				<li><a href="index.html" class="active"> Página Inicial </a></li>
 				<li><a href="quem_somos.html" > Quem Somos </a></li>
 				<li><a href="diretrizes.html" > Diretrizes </a></li>
 				<li><a href="parceiros.html" > Parceiros </a></li>
-			<li><a href="fotos_videos.html" class="active"> Fotos e Vídeos </a></li>	
-			<li><a href="fale_conosco.html" > Fale Conosco </a></li>
-		
-		</ul>
-	</div><!-- fim menu -->
-	
-</div><!-- fim topo -->
-	
+				<li><a href="atividades.html" > Atividades </a></li>
+				<li><a href="fotos_videos.html" > Fotos e Vídeos </a></li>	
+				<li><a href="fale_conosco.html" > Fale Conosco </a></li>
+			</ul>
+		</menu>
+	</div>
+</div>
+</header>	
 	<div id="fundo_fotos_videos">
-	  
 		<div class="box_txt13">
-			<h1>Fotos e Vídeos dos nossos eventos&nbsp;</h1>
-			  
-	      <p>&nbsp;</p>
-	      <p>&nbsp;</p>
-			<p><b>Índice de fotos:</b></p>
-            <p>&nbsp;</p>
-		  <p><ul><li>1 - <a href="fotos_12_3_22.html">Fotos do evento do dia 12/03/2022;</a></li></ul></p>
-		  <p><ul><li>2 - <a href="fotos_16_4_22.html">Fotos do evento do dia 16/04/2022;</a></li></ul></p>
-	<p><ul><li>3 - <a href="fotos_12_5_22.html">Fotos da inauguração da sede do Projeto Tropinha no dia 12/05/2022.</a></li></ul></p>
-		
-			<p>&nbsp;</p>
-	      <p>&nbsp;</p>
-	      <p><b>Índice de vídeos:</b></p>
-		 <p>&nbsp;</p>
-		  <p><ul><li>1 - <a href="video1.html">Depoimento do atleta Lucas;</a></li></ul></p>
-		  <p><ul><li>2 - <a href="video2.html">Depoimento do atleta Igor Ricardo.</a></li></ul></p>
-	
-	
+			<h1 class="box_txt13H1">Nossos eventos</h1>
+			<div class="container_foto_video">
+			<div class="sun1">	
+			<h2 class="box_txt13H2"><b>Fotos:</b></h2>
+			<article class="container foto_section">
+			<div class="foto_video">
+			<a class="foto_pg" href="fotos_12_3_22.html">Fotos do evento do dia 12/03/2022</a>
+			<a class="foto_pg" href="fotos_16_4_22.html">Fotos do evento do dia 16/04/2022</a>
+			<a class="foto_pg" href="fotos_12_5_22.html">Fotos da inauguração da sede do Projeto Tropinha no dia 12/05/2022</a>
+			</div>
+			</article>
+			</div>
+			<div class="sun2">
+			<h2 class="box_txt13H2"><b>Vídeos:</b></h2>
+			<article class="container foto_section">
+			<div class="foto_video">
+			<a class="video_pg" href="video1.html">Depoimento do atleta Lucas</a>
+			<a class="video_pg" href="video2.html">Depoimento do atleta Igor Ricardo</a>
+			</div>
+			</article>
+			</div>
+			</div>
 		</div><!-- fim do box txt13 -->
-		
-				
-					
-	  <div class="box_rodape">
-			<h4>Todos os direitos reservados. 2022. Desenvolvido por Geraldof</h4>
-		</div> <!-- fim rodape -->
-		
-	</div><!-- fim fundo fotos_videos -->
-
+		<div class="button_end">
+			<a class="link_info_pageFirst" href="index.html">Página Inicial</a>
+		</div>
+		<footer>
+			<p>&copy; 2023 Desenvolvido por Geraldof e Bruno Dias. Todos os direitos reservados. 2023.</p>
+		</footer> <!-- fim rodape -->
+	</div><!-- fim fundo inicial -->
+	<script>
+		function clickMenu(){
+			if(itens.style.display == 'block'){
+				itens.style.display = 'none'
+			}else{
+				itens.style.display = 'block'
+			}
+		}
+	</script>
 </body>
 </html>
