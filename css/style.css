@@ -268,6 +268,7 @@ li{
     margin: auto;
     font-family: 'Bungee', sans-serif;
     border: 2px solid;
+    padding: 10px;
 }
 
 .link_info a{
@@ -278,12 +279,14 @@ li{
     background-color: white;
     height: 1em;
     margin-top: 1em;
+    display: none;
 }
 
 .space1{
     background-color: white;
     height: 1em;
     margin: 1em;
+    display: none;
 }
 
 .box_txt3b{
