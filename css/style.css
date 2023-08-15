@@ -39,6 +39,8 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 /* .piscar{
@@ -62,6 +64,7 @@ nav{
     font-size: 2.3em;
     /* background-color: #316538; */
     background-color: rgb(82, 212, 82);
+    width: 8em;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -85,16 +88,21 @@ nav{
 }
 
 li{
-    width: 80%;
+    width: 60%;
     list-style: none;
     border: 4px solid;
-    border-color: #61ab6b;
+    border: none;
     border-radius: 8px;
     padding: 8px;
     text-align: center;
     margin: 10px auto;
     background-color: #316538;
-    font-size: 3em;
+    font-size: 2.5em;
+}
+
+.list a{
+    display: block;
+    width: 100%;
 }
 
 /* fim menu */
@@ -111,7 +119,7 @@ li{
 }
 
 .menu_simple img{
-    width: 7em;
+    width: 5em;
 }
 
 .foto_capa{
@@ -130,7 +138,7 @@ li{
 }
 
 .donate p{
-    font-size: 3.5em;
+    font-size: 3em;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -142,7 +150,7 @@ li{
 }
 
 .donate{
-    width: 60%;
+    width: 70%;
     background-color: rgb(82, 212, 82);
     /* background: linear-gradient(to right, rgb(255, 255, 48), rgb(191, 191, 4)); */
     padding: 10px;
@@ -158,6 +166,11 @@ li{
 
 .cont_img{
     text-align: center;
+}
+
+.container_white{
+    width: 90%;
+    margin: auto;
 }
 
 .all_container h1{
@@ -213,6 +226,35 @@ li{
 .help_us{
     background-color: #266c2f;
     color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.help_us_act{
+    padding-bottom: 10px;
+}
+
+.button_act{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 2em;
+    border-radius: 5px;
+    width: 40%;
+    margin: 20px auto;
+    font-family: 'Bungee', sans-serif;
+    border: 2px solid black;
+}
+
+.button_act a{
+    color: black;
+}
+
+.help_us h3{
+    font-size: 4em;
+    margin: 10px;
 }
 
 .help_us img{
@@ -232,7 +274,7 @@ li{
 }
 
 .box_txt3a{
-    height: 65em;
+    height: 75em;
     margin-bottom: 2em;
 }
 
@@ -260,19 +302,18 @@ li{
 }
 
 .link_info{
-    font-size: 2.5em;
+    font-size: 2em;
     background-color: rgb(82, 212, 82);
-    padding: 2px;
     border-radius: 5px;
-    width: 30%;
+    width: 50%;
     margin: auto;
     font-family: 'Bungee', sans-serif;
-    border: 2px solid;
-    padding: 10px;
+    border: 2px solid black;
 }
 
 .link_info a{
     color: black;
+    display: block;
 }
 
 .space{
@@ -890,10 +931,22 @@ footer{
         width: 10em;
         font-size: 4em;
         border: 4px solid;
+        cursor: pointer;
     }
 
     .list li{
-        width: 30%;
+        width: 15em;
+        background-color: white;
+    }
+
+    .list a{
+        color: #266c2f;
+        font-weight: bold;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: right;
     }
 
     /* container */
@@ -923,6 +976,10 @@ footer{
 
     .box_txt3b1{
         margin-top: 20.5em;
+    }
+
+    .button_act{
+        width: 30%;
     }
 
     /* inicio pagina quem somos */
