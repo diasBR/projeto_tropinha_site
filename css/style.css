@@ -248,6 +248,10 @@ li{
     margin: 10px;
 }
 
+.help_us p{
+    line-height: 2em;
+}
+
 .help_us img{
     width: 100%;
 }
@@ -364,6 +368,11 @@ li{
     background-color: white;
 }
 
+/* início página pix */
+
+.box_pix img{ 
+    width: 100%;
+}
 /* início página quem somos */
 
 .section_body{
@@ -431,7 +440,7 @@ li{
 
 .link_info_pageFirst{
     text-decoration: none;
-    color: #59a263;
+    color: #266c2f;
     font-size: 2.5em;
     padding: 15px;
     background-color: white;
@@ -579,7 +588,7 @@ article p{
 }
 
 .box_icons img{
-    width: 10em;
+    width: 3em;
     cursor: pointer;
 }
 
@@ -594,7 +603,7 @@ article p{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 8px;
     box-shadow: 1px 1px 4px rgba(30, 55, 35, 0.9);
 }
 
@@ -667,7 +676,9 @@ article p{
 }
 
 .box_icons2 img{
-    width: 2.5em;
+    width: 1em;
+    display: flex;
+    align-items: center;
 }
 
 .box_icons2{
@@ -687,7 +698,7 @@ article p{
     background-color: white;
     text-align: left;
     padding: 20px;
-    font-size: 4em;
+    font-size: 3.5em;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 4px rgba(30, 55, 35, 0.9);
     width: 80%;
@@ -702,6 +713,7 @@ article p{
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .form-field {
@@ -1204,6 +1216,15 @@ footer{
 
     .box_txt11 h3{
         font-size: 5em;
+    }
+
+    .box_icons img{
+        width: 5em;
+    }
+
+    .our_form{
+        width: 50%;
+        margin: auto;
     }
 
     /* início fotos e vídeos */
